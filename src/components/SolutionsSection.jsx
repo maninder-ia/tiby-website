@@ -21,21 +21,28 @@ export default function SolutionsSection() {
   ]
 
   return (
-    (<section id="solutions" className="py-20 bg-[#e6e6e6]">
+    (<section id="solutions" className="py-24 bg-[#41228e]">
       <div className="container mx-auto px-4">
-        <h2
-          className="text-3xl font-bold text-center text-[#2e1865] mb-12 tracking-wide">
-          AI Solutions for Every Industry
-        </h2>
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+            AI Solutions for Every Industry
+          </h2>
+          <p className="text-xl text-white/80">
+            Transform your industry with our specialized AI solutions
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {solutions.map((solution, index) => (
-            <Card key={index} className="border-[#6d44d2]">
+            <Card key={index} 
+              className="bg-white/10 border-white/20 backdrop-blur-sm hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
               <CardHeader>
-                <solution.icon className="w-10 h-10 text-[#542cb7] mb-2" />
-                <CardTitle className="text-[#2e1865]">{solution.title}</CardTitle>
+                <div className="p-3 rounded-2xl bg-white/10 w-fit mb-4 backdrop-blur-sm">
+                  <solution.icon className="w-6 h-6 text-white" />
+                </div>
+                <CardTitle className="text-white text-xl mb-2">{solution.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-[#41228e]">{solution.description}</p>
+                <p className="text-white/80 leading-relaxed">{solution.description}</p>
               </CardContent>
             </Card>
           ))}

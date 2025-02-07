@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import SolutionsSection from '../components/SolutionsSection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import UseCasesSection from '../components/UseCasesSection';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <FeaturesSection />
+        <UseCasesSection />
         <SolutionsSection />
         <TestimonialsSection />
         <CTASection />
