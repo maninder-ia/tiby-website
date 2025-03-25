@@ -42,7 +42,7 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full py-16 md:py-24">
           <div className="flex flex-col items-center text-center">
-            <h2 className="md:text-[60px] text-[20px] md:p-10">
+            <h2 className="md:text-[50px]  sm:text-[40px] md:px-25 md:pt-30">
               The <span className="text-[#1A1A1A] font-bold ">Fastest</span>, <span className="text-[#1A1A1A] font-extrabold">Safest</span>, And <span className="text-[#1A1A1A] font-extrabold">Most Scalable</span> Way To Build Intelligent Agentic <span className="text-[#1A1A1A] font-bold">AI Applications</span>
             </h2>
             
@@ -57,7 +57,7 @@ export default function HomePage() {
               Book a demo
             </Link>
 
-            <div className="py-10">
+            <div className="py-10 md:pb-20">
               <p className="text-md font-medium pb-4">• Trusted by leading companies •</p>
               <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8">
                 {/* Company logos in black and white */}
