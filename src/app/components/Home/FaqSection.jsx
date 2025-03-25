@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Can Tiby.AI be deployed on-premise?",
-    answer: "Yes, Tiby.AI can be deployed on-premise, in the cloud, or in hybrid environments based on enterprise needs."
+    answer: "Yes, Tiby.AI can be deployed an on-premise, in the cloud, or in hybrid environments based on enterprise needs."
   },
   {
     question: "What security measures does Tiby.AI offer?",
