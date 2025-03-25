@@ -57,7 +57,7 @@ export default function HomePage() {
               Book a demo
             </Link>
 
-            <div className="pt-10">
+            <div className="py-10">
               <p className="text-md font-medium pb-4">• Trusted by leading companies •</p>
               <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8">
                 {/* Company logos in black and white */}
@@ -104,7 +104,7 @@ export default function HomePage() {
       </motion.section>
 
       {/* Other sections */}
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -137,7 +137,7 @@ export default function HomePage() {
         transition={{ duration: 0.8 }}
       >
       <OverView />
-      </motion.div> */}
+      </motion.div>
       <WaveSection />
       <motion.div
         initial={{ opacity: 0 }}
