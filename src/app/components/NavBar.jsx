@@ -136,7 +136,7 @@ const NavBar = () => {
           </div>
 
           <Link
-            href="/demo"
+            href="http://app.tiby.ai/"
             className="hidden md:block button-color text-white px-6 py-2 rounded-lg font-medium hover:bg-[#5835b0] transition-colors"
           >
             Book Demo
