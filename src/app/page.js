@@ -23,7 +23,7 @@ export default function HomePage() {
     <div className="w-full">
       {/* Hero Section */}
       <motion.section 
-        className="relative flex flex-col items-center md:h-screen pt-5 md:pt-0 justify-center"
+        className="relative flex flex-col items-center md:h-screen pt-5 md:pt-10 justify-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -104,7 +104,7 @@ export default function HomePage() {
       </motion.section>
 
       {/* Other sections */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -130,7 +130,6 @@ export default function HomePage() {
       >
       <FeaturesSection />
       </motion.div>
-      {/* <Divider /> */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -138,7 +137,7 @@ export default function HomePage() {
         transition={{ duration: 0.8 }}
       >
       <OverView />
-      </motion.div>
+      </motion.div> */}
       <WaveSection />
       <motion.div
         initial={{ opacity: 0 }}

@@ -108,7 +108,7 @@ const Footer = () => {
               </p>
               <div className="border rounded-lg border-gray-800 p-3 sm:p-4 mt-auto">
                 <a 
-                  href="maninder@tiby.ai" 
+                  href="mailto:maninder@tiby.ai"
                   className="flex items-center justify-between text-gray-400 hover:text-white transition-colors group text-sm sm:text-base"
                 >
                   <div className="flex items-center">
@@ -173,18 +173,18 @@ const Footer = () => {
                 >
                   FAQ's
                 </a>
-                <a 
-                  href="/privacy-policy"
+                <Link 
+                  href="/Pages/privacy-policy"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base"
                 >
                   Privacy Policy
-                </a>
-                <a 
-                  href="/terms-and-conditions"
+                </Link>
+                <Link 
+                  href="/Pages/terms-and-conditions"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base"
                 >
                   Terms and Conditions
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Footer = () => {
       <div className="py-4 sm:py-6 px-4 sm:px-6 relative">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0">
           <div className="text-gray-400 text-xs sm:text-sm order-2 md:order-1">
-            © 2023 Tibyai.com. All rights reserved.
+            © 2025 Tiby.ai All rights reserved.
           </div>
           
           {/* Systems Status - Centered better */}

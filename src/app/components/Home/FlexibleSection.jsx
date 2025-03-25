@@ -108,7 +108,7 @@ const FlexibleSection = () => {
             </div>
 
             {/* Shade 1 - Top Right */}
-            <div className="absolute -top-16 sm:-top-20 md:-top-24 -right-10 sm:-right-16 md:-right-20 z-30 md:block hidden">
+            {/* <div className="absolute -top-16 sm:-top-20 md:-top-24 -right-10 sm:-right-16 md:-right-20 z-30 md:block hidden">
               <Image
                 src={shade1}
                 alt=""
@@ -116,7 +116,7 @@ const FlexibleSection = () => {
                 height={320}
                 className="object-contain opacity-60"
               />
-            </div>
+            </div> */}
 
             {/* Shade 2 - Bottom Left */}
             <div className="absolute -bottom-16 sm:-bottom-20 md:-bottom-24 -left-10 sm:-left-16 md:-left-20 z-30 md:block hidden">

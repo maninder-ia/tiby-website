@@ -185,7 +185,7 @@ const NavBar = () => {
               </a>
             ))}
             <Link
-              href="/demo"
+              href="http://app.tiby.ai/"
               className="block mt-4 mx-4 button-color text-white px-6 py-3 rounded-lg font-medium hover:bg-[#5835b0] transition-colors text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
