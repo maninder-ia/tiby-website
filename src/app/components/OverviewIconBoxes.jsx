@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { leftLine, rightLine, Overview1, Overview2, Overview3, Overview4 } from '@/assets'
+import { leftLine, Overview1, Overview2, Overview3, Overview4 } from '@/assets'
 
 const OverviewIconBoxes = () => {
   // Data for icon boxes
