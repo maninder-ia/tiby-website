@@ -19,7 +19,7 @@ import overViewImg from './section3Img.png';
 import overViewImg2 from './KMqtOmQCKJGhfsNjBtXQWEEAoVE.svg.png';
 import overViewImg3 from './59dXbAMOkWcJevijvnmRv2OiOAE.png.png';
 import leftLine from './leftLine.png';
-import rightLine from './rightLine.png';
+// import rightLine from './rightLine.png';
 import Overview1 from './Overview1.png';
 import Overview2 from './Overview2.png';
 import Overview3 from './Overview3.png';
@@ -77,7 +77,7 @@ export {
   overViewImg2 as overViewImg2,
   overViewImg3 as overViewImg3,
   leftLine as leftLine,
-  rightLine as rightLine,
+  // rightLine as rightLine,
   Overview1 as Overview1,
   Overview2 as Overview2,
   Overview3 as Overview3,
